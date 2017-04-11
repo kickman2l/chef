@@ -1,0 +1,9 @@
+log_level                :info
+log_location             STDOUT
+node_name                'pheraska'
+client_key               '/home/student/chef/tsk4/srv/pheraska.pem'
+validation_client_name   'chef-validator'
+validation_key           '/home/student/chef/tsk4/srv/validation.pem'
+chef_server_url          'https://server.loc/organizations/chef/'
+syntax_check_cache_path  '/home/student/chef/tsk4/srv/syntax_check_cache'
+cookbook_path            '/home/student/chef/tsk4/srv/cookbooks/'
